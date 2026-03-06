@@ -7,7 +7,8 @@ public class Rectangle {
         width = w;
         height = h;
     }
-    
+
+    @Override
     public boolean equals(Object obj) {
         Rectangle r = (Rectangle) obj;
         return (this.width == r.width && this.height == r.height);
